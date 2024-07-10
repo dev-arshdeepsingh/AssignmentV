@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+#txt{
+    text-align: center;
+}
+
+
+
+
+#banner{
+    background-image: url(../Images/IPhone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px
+}
+
+#banner>p{
+    font-size: 50px;
+    height: 300px;
+    width: 100px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 1000px;
+}
+
+h3{
+    display: inline;
+    font-size: 50px;
+    height: 500px;
+    width: 100px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 0px;
+    
+    text-align: center;
+    
+    
+}
+
+#navs>li{
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+ul{
+    text-align: center;
+}
+
+i{
+    display: block;
+}

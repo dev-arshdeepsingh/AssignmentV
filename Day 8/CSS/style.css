@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.machine {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.machine > div {
+  border: 1px solid white;
+  width: 15%;
+  height: 350px;
+  /* background-image: url(../Images/WM.png);
+    background-size: 80% 130px;
+    background-repeat: no-repeat;
+    background-position-x: center;  */
+}
+
+img {
+  height: 130px;
+  width: 80%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:link {
+  color: rgb(5, 167, 200);
+}
+
+a:visited {
+  color: rgb(5, 167, 200);
+}
+
+a:hover {
+  color: palegreen;
+}
+
+svg {
+  color: gold;
+}
+
+.reviews {
+  display: inline;
+  color: rgb(5, 167, 200);
+}
+
+.op {
+  font-size: 20px;
+}
+
+.mrp {
+  margin-top: 10px;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.discount {
+  display: inline;
+  background-color: rgb(22, 205, 242);
+  width: 70px;
+  height: 20px;
+  padding: 4px;
+}
+
+.units {
+  display: inline;
+}
