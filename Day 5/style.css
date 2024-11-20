@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  #ironman {
+    background-image: url(ironman.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+    color: rgb(255, 255, 255);
+  }
+  
+  #Thor {
+    background-image: url(thor.jpg);
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+    background-size: cover;
+  
+    color: rgb(255, 255, 255);
+  }
+  
+  #spiderman {
+    background-image: url(sm.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+  
